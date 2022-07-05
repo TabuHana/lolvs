@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   const hello = trpc.useQuery(["example.hello", { text: "from tRPC" }]);
 
   return (
-    <div className="text-2xl text-red-200">Hello World</div>
+    <div className="">Hello World</div>
   );
 };
 
